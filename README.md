@@ -6,22 +6,22 @@ Atividades referentes ao módulo de PostgreSQL, do programa Vem Ser Tech do Ifoo
 
 Crie um banco de dados com a seguinte estrutura:
 
-- uma tabela de alunos que possua as colunas nome, cpf e e-mail. Deixe todas as colunas permitindo valores nulos;
-- insira alguns registros utilizando as sintaxes possíveis no SQL;
-- faça algumas inserções com valores nulos;
-- altere os campos para limitar a 60 caracteres e não permitir nulos.
+1) uma tabela de alunos que possua as colunas nome, cpf e e-mail. Deixe todas as colunas permitindo valores nulos;
+2) insira alguns registros utilizando as sintaxes possíveis no SQL;
+3) faça algumas inserções com valores nulos;
+4) altere os campos para limitar a 60 caracteres e não permitir nulos.
 
 ## Fixação Relacionamentos (chave estrangeira)
 
 Crie um banco para modelar o seguinte cenário:
 
-- Você está desenvolvendo o sistema de controle de usuário de uma empresa. Os usuário possuem cpf, nome, e-mail e data nascimento para poderem ser cadastrados. Além disso quando você cria um usuário, é enviado um e-mail de confirmação e você deve saber se o usuário o validou.
+1) Você está desenvolvendo o sistema de controle de usuário de uma empresa. Os usuário possuem cpf, nome, e-mail e data nascimento para poderem ser cadastrados. Além disso quando você cria um usuário, é enviado um e-mail de confirmação e você deve saber se o usuário o validou.
 
-- Cada usuário faz parte de um departamento (exemplo financeiro, jurídico, etc). Cada departamento tem suas respectivas restrições de acesso para funcionalidades do sistema. Exemplo: o departamento jurídico não pode visualizar os módulos Financeiro, Contabilidade e Vendas.
+2) Cada usuário faz parte de um departamento (exemplo financeiro, jurídico, etc). Cada departamento tem suas respectivas restrições de acesso para funcionalidades do sistema. Exemplo: o departamento jurídico não pode visualizar os módulos Financeiro, Contabilidade e Vendas.
 
-- Para isto deve haver uma forma de relacionar os departamentos com os módulos que cada um tem acesso.
+3) Para isto deve haver uma forma de relacionar os departamentos com os módulos que cada um tem acesso.
 
-- Você deve mapear e criar as relações necessárias para que as informações mantenham a integridade referencial no seu banco.
+4) Você deve mapear e criar as relações necessárias para que as informações mantenham a integridade referencial no seu banco.
 
 ## Treinando consultas 
 
